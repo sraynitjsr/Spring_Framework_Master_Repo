@@ -18,3 +18,27 @@
 #### B. Spring Web MVC (spring-webmvc): Offers the Model-View-Controller (MVC) framework for building web applications.
 #### C. Spring Web Websocket (spring-websocket): Provides WebSocket support.
 #### D. Spring Web Websocket (spring-websocket): Provides WebSocket support.
+
+## 5. Security :-
+#### A. Spring Security (spring-security): Offers comprehensive security features for securing your applications.
+
+## 6. Remoting :- 
+#### A. Spring Remoting (spring-remoting): Provides remoting support, allowing you to invoke remote objects.
+
+## 7. Messaging :-
+#### A. Spring Messaging (spring-messaging): Offers support for messaging, including STOMP over WebSocket.
+
+## 8. Testing :-
+#### A. Spring Test (spring-test): Provides support for testing Spring components.
+
+## 9. Aspect Oriented Programming (AOP): :-
+#### A. Spring Aspects (spring-aspects): Contains integration with AspectJ for advanced AOP features.
+
+## 10. Spring Boot :-
+#### A. Spring Boot is a project that simplifies the configuration and deployment of Spring applications. It provides a pre-configured environment and a wide range of tools to get Spring applications up and running quickly.
+
+## 11. Spring Data :-
+#### A. Various subprojects like Spring Data JPA, Spring Data MongoDB, and Spring Data Redis provide data access and manipulation abstractions for different data stores.
+
+## 12. Spring Batch :-
+#### A. Provides functionality for batch processing and offline processing jobs.
