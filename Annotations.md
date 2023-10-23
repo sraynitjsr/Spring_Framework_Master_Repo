@@ -6,7 +6,20 @@
 
 ##### Spring Framework extensively uses annotations to simplify configuration and development.
 
-##### Here are some commonly used Spring annotations :-
+#### Here are some commonly used Spring annotations :-
+
 ###### @Component: Marks a Java class as a Spring bean, allowing Spring to manage its lifecycle and dependencies.
+
 ###### @Autowired: Injects dependencies automatically, reducing the need for manual wiring of components.
+
 ###### @Controller, @Service, and @Repository: Specialized versions of @Component to indicate the roles of specific classes in your application.
+
+###### @Configuration: Marks a class as a configuration class, defining Spring bean definitions and configuration settings.
+
+###### @Bean: Used within configuration classes to define Spring beans explicitly.
+
+###### @RequestMapping: Used in Spring MVC to map HTTP requests to specific controller methods.
+
+###### @Value: Injects values from properties files or other sources into Spring beans.
+
+###### @Qualifier: Used with @Autowired to specify which bean to inject if multiple candidates exist.
