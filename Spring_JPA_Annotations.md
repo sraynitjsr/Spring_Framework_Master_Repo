@@ -5,3 +5,13 @@
 ## JPA provides a set of annotations that we can use to configure and map Java classes to database tables.
 
 ## These annotations are typically used in Java entities, which are Java classes representing database tables.
+
+### @Entity: This annotation is used to mark a Java class as a JPA entity. An entity class represents a database table.
+
+### @Table: You can use this annotation to specify the details of the database table associated with the entity. It allows you to set the table name, schema, and other attributes.
+
+### @Id: Annotate a field with this annotation to indicate that it is the primary key of the entity.
+
+### @GeneratedValue: This annotation is often used in conjunction with @Id to specify how the primary key values are generated. Common strategies are GenerationType.IDENTITY (auto-increment) and GenerationType.SEQUENCE.
+
+### @Column: Use this annotation to specify the mapping between an entity field and a database column. You can set attributes like the column name, length, nullable, and more.
