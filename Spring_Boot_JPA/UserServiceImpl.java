@@ -46,4 +46,9 @@ public class UserServiceImpl implements UserService {
     public List<User> getUsersByNameStartingWith(String prefix) {
         return userRepository.findByNameStartingWith(prefix);
     }
+
+    @Override
+    public List<User> getUsersByEmailDomain(String domain) {
+        return userRepository.findByEmailRegex(".*@" + domain);
+    }
 }
