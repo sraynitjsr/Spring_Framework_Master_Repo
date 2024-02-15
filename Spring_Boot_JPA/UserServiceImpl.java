@@ -41,4 +41,9 @@ public class UserServiceImpl implements UserService {
     public void deleteUser(String id) {
         userRepository.deleteById(id);
     }
+
+    @Override
+    public List<User> getUsersByNameStartingWith(String prefix) {
+        return userRepository.findByNameStartingWith(prefix);
+    }
 }
