@@ -38,4 +38,9 @@ public class UserController {
     public void deleteUser(@PathVariable String id) {
         userService.deleteUser(id);
     }
+
+    @GetMapping("/name-starting-with/{prefix}")
+    public List<User> getUsersByNameStartingWith(@PathVariable String prefix) {
+        return userService.getUsersByNameStartingWith(prefix);
+    }
 }
