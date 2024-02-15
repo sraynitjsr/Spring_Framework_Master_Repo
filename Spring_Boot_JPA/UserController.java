@@ -43,4 +43,9 @@ public class UserController {
     public List<User> getUsersByNameStartingWith(@PathVariable String prefix) {
         return userService.getUsersByNameStartingWith(prefix);
     }
+
+    @GetMapping("/email-domain/{domain}")
+    public List<User> getUsersByEmailDomain(@PathVariable String domain) {
+        return userService.getUsersByEmailDomain(domain);
+    }
 }
