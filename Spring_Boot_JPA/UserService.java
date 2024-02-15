@@ -10,5 +10,6 @@ public interface UserService {
     User addUser(User user);
     User updateUser(String id, User user);
     void deleteUser(String id);
-    List<User> getUsersByNameStartingWith(String prefix); // New method declaration
+    List<User> getUsersByNameStartingWith(String prefix);
+    List<User> getUsersByEmailDomain(String domain);
 }
